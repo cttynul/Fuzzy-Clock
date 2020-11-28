@@ -1,23 +1,15 @@
-# Fuzzy Clock
+# Fuzzy Clock ITA
 Replace the Gnome Shell clock with a Fuzzy clock.
+
+**WARNING** This is the *italian* version, if you want the original one check [Cj-Malone Project](https://github.com/Cj-Malone/Fuzzy-Clock)
 
 ![Screenshot](screenshot.png)
 
 # Install
-## [Gnome Software](appstream://fuzzy-clock_keepawayfromfire.co.uk)
-```
-appstream://fuzzy-clock_keepawayfromfire.co.uk
-```
-## [Gnome Extensions](https://extensions.gnome.org/extension/1281/fuzzy-clock/)
-## GIT
-```
-git clone https://github.com/Cj-Malone/Fuzzy-Clock ${XDG_DATA_HOME:=$HOME/.local/share}/gnome-shell/extensions/fuzzy-clock@keepawayfromfire.co.uk/
-```
-## Arch Linux
+I will soon make a PKGBUILD
 ```
 cd $(mktemp -d)
-curl https://gitlab.com/Cj-Malone/PKGBUILDs/raw/master/aur/gnome-shell-extension-fuzzy-clock/PKGBUILD > PKGBUILD
+curl https://raw.githubusercontent.com/cttynul/Fuzzy-Clock-ITA/master/PKGBUILD > PKGBUILD
 makepkg
 sudo pacman -U gnome-shell-extension-fuzzy-clock-*-any.pkg.tar
 ```
-
