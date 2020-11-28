@@ -1,30 +1,30 @@
 const Main = imports.ui.main;
 const GLib = imports.gi.GLib;
 
-var HOURS = [ "TWELVE",
-	"ONE",
-	"TWO",
-	"THREE",
-	"FOUR",
-	"FIVE",
-	"SIX",
-	"SEVEN",
-	"EIGHT",
-	"NINE",
-	"TEN",
-	"ELEVEN" ];
-var FUZZY_RULES = [ "%s O'CLOCK",
-	"FIVE past %s",
-	"TEN past %s",
-	"QUARTER past %s",
-	"TWENTY past %s",
-	"TWENTY FIVE past %s",
-	"HALF past %s",
-	"TWENTY FIVE to %s",
-	"TWENTY to %s",
-	"QUARTER to %s",
-	"TEN to %s",
-	"FIVE to %s" ];
+var HOURS = [ "DODICI",
+	"UNA",
+	"DUE",
+	"TRE",
+	"QUATTRO",
+	"CINQUE",
+	"SEI",
+	"SETTE",
+	"OTTO",
+	"NOVE",
+	"DIECI",
+	"UNDICI" ];
+var FUZZY_RULES = [ "%s in PUNTO",
+	"%s e CINQUE",
+	"%s e DIECI",
+	"%s e un QUARTO",
+	"%s e VENTI",
+	"%s e VENTICINQUE",
+	"%s e MEZZA",
+	"%s e VENTICINQUE",
+	"%s meno VENTI",
+	"%s meno un QUARTO",
+	"%s meno DIECI",
+	"%s meno CINQUE" ];
 
 var clockLabel;
 var signalID;
